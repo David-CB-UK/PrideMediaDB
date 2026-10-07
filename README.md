@@ -66,173 +66,259 @@
 
 ## Project Overview
 
+[Back to top](#pridemediadb)
+
 ---
 
 ## User Experience (UX)
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Project Purpose
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### User Goals
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### User Goals and User Stories
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### User Experience Goals
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Accessibility
 
+[Back to top](#pridemediadb)
+
 ---
 
 ## Project Management
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Agile Development
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### GitHub Project Board
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Epics
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### User Stories and Acceptance Criteria
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### MoSCoW Prioritisation
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Backlog Refinement
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Development Workflow
 
+[Back to top](#pridemediadb)
+
 ---
 
 ## Design
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Research and Design Inspiration
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Visual Design
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Colour Scheme
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Typography
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Logo and Branding
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Wireframes
+
+[Back to top](#pridemediadb)
 
 ---
 
 ## Features
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Planned Features
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Implemented Features
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Responsive Design
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### User Authentication
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Film Discovery and Search
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Film Details and Representation
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Ratings, Reviews and Watchlists
+
+[Back to top](#pridemediadb)
 
 ---
 
 ## Database
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Database Design
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Entity Relationship Diagram
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Django Models
+
+[Back to top](#pridemediadb)
 
 ---
 
 ## API Integration
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### API Research
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### TMDb Integration
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### API Feedback and Error Handling
+
+[Back to top](#pridemediadb)
 
 ---
 
 ## Technologies Used
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Languages
+
+[Back to top](#pridemediadb)
 
 ---
 
 ### Frameworks and Libraries
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Database Technology
 
+[Back to top](#pridemediadb)
+
 ---
 
 ### Development and Version Control
+
+[Back to top](#pridemediadb)
 
 ---
 
@@ -242,30 +328,46 @@ Details of the project's testing strategy, including automated testing and TDD, 
 
 [View Testing Documentation](docs/TESTING.md)
 
+[Back to top](#pridemediadb)
+
 ---
 
 ## Deployment
+
+[Back to top](#pridemediadb)
 
 ---
 
 ## Project Structure
 
+[Back to top](#pridemediadb)
+
 ---
 
 ## Credits
+
+[Back to top](#pridemediadb)
 
 ---
 
 ## References
 
+[Back to top](#pridemediadb)
+
 ---
 
 ## Acknowledgements
+
+[Back to top](#pridemediadb)
 
 ---
 
 ## Future Development
 
+[Back to top](#pridemediadb)
+
 ---
 
 ## Reflections
+
+[Back to top](#pridemediadb)
