@@ -128,9 +128,7 @@ The user goals identified for PrideMediaDB are translated into user stories that
 | **Share film information** | As a visitor, I want to share an individual film page so that I can recommend or discuss a film with others. |
 | **Use the application easily and accessibly** | As a user, I want the application to be responsive, accessible and easy to navigate so that I can use it effectively across different devices and accessibility needs. |
 
-The user stories are managed through the project's GitHub Issues and Project Board. Acceptance criteria are used to define when each story has been completed.
-
-[GitHub Issues](https://github.com/David-CB-UK/PrideMediaDB/issues)
+The user stories are managed through the project's GitHub Issues and Project Board. [GitHub Issues](https://github.com/David-CB-UK/PrideMediaDB/issues). Acceptance criteria are used to define when each story has been completed.
 
 [Back to top](#pridemediadb)
 
