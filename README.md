@@ -28,11 +28,13 @@ The project will use:
 - Git and GitHub for version control and development history
 - GitHub Issues for user stories, acceptance criteria and tasks
 - Agile iterative development
-- Test Driven Development (TDD) where required
+- **Test Driven Development (TDD) using the Test → Code → Refactor cycle**
 - Django and Python for the full-stack application
 - A relational database for persistent application data
 - Bootstrap and responsive front-end development
 - Secure cloud deployment
+
+TDD is a core Project 3 requirement. Applicable functionality will be developed by writing a failing automated test first, implementing the minimum code required to make it pass, and then refactoring while keeping the tests passing. Meaningful commits will be used to demonstrate this development process.
 
 The development history is intentionally maintained through small, descriptive commits so that each feature or fix can be traced through the project.
 
