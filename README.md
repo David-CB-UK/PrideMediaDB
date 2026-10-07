@@ -113,6 +113,25 @@ These goals provide the foundation for the user stories and acceptance criteria 
 
 ### User Goals and User Stories
 
+The user goals identified for PrideMediaDB are translated into user stories that describe what users need to accomplish and why. These stories provide the basis for the acceptance criteria used during development.
+
+| User Goal | User Stories |
+|---|---|
+| **Discover films** | As a visitor, I want to browse and search the film database so that I can discover LGBTQ+ films that interest me. |
+| **Explore films and representation** | As a visitor, I want to view detailed film information and LGBTQ+ representation so that I can understand what a film is about and how LGBTQ+ representation is presented. |
+| **Explore additional film information** | As a visitor, I want to access relevant film metadata, external information and ratings so that I can explore information from additional trusted sources. |
+| **Keep track of films** | As a registered user, I want to add films to my Watchlist and mark films as watched so that I can keep track of films I want to see and have already watched. |
+| **Rate and review films** | As a registered user, I want to create, edit and delete my ratings and reviews so that I can record and share my opinions about films. |
+| **Contribute to the database** | As a registered user, I want to suggest films that are missing from the database so that they can be considered for inclusion. |
+| **Manage film suggestions** | As an administrator, I want to review and approve or reject suggested films so that only appropriate and relevant films are added to the database. |
+| **Manage film data** | As an administrator, I want to add, edit and manage film information so that the database remains accurate and up to date. |
+| **Share film information** | As a visitor, I want to share an individual film page so that I can recommend or discuss a film with others. |
+| **Use the application easily and accessibly** | As a user, I want the application to be responsive, accessible and easy to navigate so that I can use it effectively across different devices and accessibility needs. |
+
+The user stories are managed through the project's GitHub Issues and Project Board. Acceptance criteria are used to define when each story has been completed.
+
+[GitHub Issues](https://github.com/David-CB-UK/PrideMediaDB/issues)
+
 [Back to top](#pridemediadb)
 
 ---
