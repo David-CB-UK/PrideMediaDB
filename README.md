@@ -94,6 +94,19 @@ The project is designed to provide an accessible, responsive and engaging experi
 
 ### User Goals
 
+PrideMediaDB is designed around the following user goals:
+
+- **Discover films** — Browse, search and filter the database to find LGBTQ+ films that match their interests.
+- **Explore films and representation** — View detailed film information and explore LGBTQ+ representation, themes, categories, age ratings and other relevant information.
+- **Explore additional film information** — Access relevant metadata and links to trusted external film information and ratings, including information provided through integrated external services.
+- **Keep track of films** — Add films to a personal Watchlist and mark films as watched.
+- **Rate and review films** — Create, view, edit and delete personal ratings and reviews to record and share opinions about films.
+- **Contribute to the database** — Suggest films that may be missing from PrideMediaDB for consideration and approval.
+- **Share film information** — Share individual film pages with others through social media or messaging services.
+- **Use the application easily and accessibly** — Navigate and use PrideMediaDB effectively across desktop, tablet and mobile devices, including users with different accessibility needs.
+
+These goals provide the foundation for the user stories and acceptance criteria used to plan and develop the project.
+
 [Back to top](#pridemediadb)
 
 ---
