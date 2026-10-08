@@ -238,7 +238,7 @@ The logo has been provided in **WebP format** to reduce file size while maintain
 
 <details> <summary><strong>PrideMediaDB Logo</strong> (Click to expand)</summary>
 
-<p><a target="_blank" rel="noopener noreferrer" href="/David-CB-UK/PrideMediaDB/blob/main/assets/images/readme-images/pridemediadb-logo.png"><img src="/David-CB-UK/PrideMediaDB/raw/main/assets/images/readme-images/pridemediadb-logo.png" alt="PrideMediaDB logo" style="max-width: 100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="/David-CB-UK/PrideMediaDB/blob/main/assets/images/readme-images/pridemediadb-logo.webp"><img src="/David-CB-UK/PrideMediaDB/raw/main/assets/images/readme-images/pridemediadb-logo.webp" alt="PrideMediaDB logo" style="max-width: 100%;"></a></p>
 
 *PrideMediaDB logo showing the rainbow-gradient wordmark and tagline.*
 
