@@ -31,6 +31,7 @@
    * [Colour Scheme](#colour-scheme)
    * [Typography](#typography)
    * [Logo and Branding](#logo-and-branding)
+   * [Favicon & App Icons](#favicon--app-icons)
    * [Wireframes](#wireframes)
 5. [Features](#features)
    * [Planned Features](#planned-features)
