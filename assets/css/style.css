@@ -1,0 +1,103 @@
+
+/* --- Design System --- */
+
+:root {
+
+    /* --- Dark Theme Colours --- */
+
+    --page-bg: #061522;
+    --surface: #102A3A;
+    --raised-surface: #234255;
+    --text-primary: #F5F7FA;
+    --accent: #F4C430;
+
+
+    /* --- Light Theme Colours --- */
+
+    --light-page-bg: #F3F6F9;
+    --light-surface: #FFFFFF;
+    --light-raised-surface: #D6E1E9;
+    --light-text-primary: #0B1B29;
+    --light-accent: #DFAF00;
+
+
+    /* --- Secondary Visual Accents --- */
+
+    --blue: #3B96D2;
+    --cyan: #00D7E6;
+    --purple: #7147E8;
+    --pink: #F72C8A;
+    --green: #36D27A;
+    --red: #F0445A;
+
+
+    /* --- Rainbow Gradient --- */
+
+    --rainbow-gradient: linear-gradient(
+        90deg,
+        #F72585 0%,
+        #FF4D6D 12%,
+        #FF8A3D 25%,
+        #FFD166 38%,
+        #43D17A 50%,
+        #16D4D4 63%,
+        #3B82F6 76%,
+        #6D4AFF 88%,
+        #D946EF 100%
+    );
+
+    /* --- Functional Colours --- */
+
+    --success: #2E8B57;
+    --warning: #D8A600;
+    --danger: #C0392B;
+    --info: #3B82F6;
+}
+
+/* --- Global Styles --- */
+
+
+/* --- Typography --- */
+
+
+/* --- Header & Navigation --- */
+
+
+/* --- Main Content --- */
+
+
+/* --- Search & Filters --- */
+
+
+/* --- Film Cards --- */
+
+
+/* --- Film Details --- */
+
+
+/* --- Representation & Categories --- */
+
+
+/* --- Buttons --- */
+
+
+/* --- Forms & Inputs --- */
+
+
+/* --- Ratings & Reviews --- */
+
+
+/* --- Watchlist --- */
+
+
+/* --- User Account --- */
+
+
+/* --- Alerts & Feedback --- */
+
+
+/* --- Footer --- */
+
+
+
+/* --- Responsive Design --- */
