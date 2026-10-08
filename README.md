@@ -228,21 +228,15 @@ The user stories are managed through the project's GitHub Issues and Project Boa
 
 PrideMediaDB uses a distinctive rainbow-gradient wordmark to reflect the project's focus on LGBTQ+ film and media while maintaining a professional and contemporary visual identity.
 
-The logo combines the **PRIDEMEDIADB** wordmark with the tagline **"Find it. Watch it. Celebrate it."** The gradient moves through a range of warm and cool rainbow tones, creating a consistent visual connection with the project's wider colour scheme.
+The logo combines the PRIDEMEDIADB wordmark with the tagline "Find it. Watch it. Celebrate it." The gradient moves through a range of warm and cool rainbow tones, creating a consistent visual connection with the project's wider colour scheme.
 
-The visual identity was developed from my own design ideas and refined through an iterative process using **ChatGPT**. ChatGPT was used to explore and develop visual concepts from my prompts and design requirements, with the final design decisions, colour choices and overall branding selected and reviewed by me.
+The visual identity was developed from my own design ideas and refined through an iterative process using ChatGPT. ChatGPT was used to explore and develop visual concepts from my prompts and design requirements, with the final design decisions, colour choices and overall branding selected and reviewed by me.
 
-The logo uses a transparent background to allow flexible placement within the application. Both light and dark backgrounds were considered during the design process; however, the logo has the strongest visual impact against a **dark or black background**, where the rainbow gradient and white tagline provide greater contrast and visual emphasis. The final interface will therefore use the logo primarily within the dark visual theme, while ensuring branding remains recognisable across the wider design system.
+The logo uses a transparent background to allow flexible placement within the application. Both light and dark backgrounds were considered during the design process; however, the logo has the strongest visual impact against a dark or black background, where the rainbow gradient and white tagline provide greater contrast and visual emphasis. The final interface will therefore use the logo primarily within the dark visual theme, while ensuring branding remains recognisable across the wider design system.
 
-The logo has been provided in **WebP format** to reduce file size while maintaining visual quality and supporting website performance.
+The logo has been provided in WebP format to reduce file size while maintaining visual quality and supporting website performance.
 
-<details> <summary><strong>PrideMediaDB Logo</strong> (Click to expand)</summary>
-
-![PrideMediaDB logo](assets/images/readme-images/pridemediadb-logo.png)
-
-*PrideMediaDB logo showing the rainbow-gradient wordmark and tagline.*
-
-</details>
+PrideMediaDB Logo (Click to expand)
 
 [Back to top](#pridemediadb)
 
@@ -340,7 +334,7 @@ The logo has been provided in **WebP format** to reduce file size while maintain
 
 ### TMDb Integration
 
-[Back to top](#pridemediadb)
+[Back to top](#tmdb-integration)
 
 ---
 
