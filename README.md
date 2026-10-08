@@ -236,7 +236,18 @@ The logo uses a transparent background to allow flexible placement within the ap
 
 The logo has been provided in WebP format to reduce file size while maintaining visual quality and supporting website performance.
 
-PrideMediaDB Logo (Click to expand)
+<details>
+<summary><strong>PrideMediaDB Logo</strong> (Click to expand)</summary>
+
+### Dark background
+
+![PrideMediaDB logo on dark background](assets/images/readme-images/pridemediadb-logo-dark.png)
+
+### Light background
+
+![PrideMediaDB logo on light background](assets/images/readme-images/pridemediadb-logo-light.png)
+
+</details>
 
 [Back to top](#pridemediadb)
 
