@@ -214,10 +214,56 @@ The user stories are managed through the project's GitHub Issues and Project Boa
 
 ### Colour Scheme
 
+The PrideMediaDB colour scheme is designed around a modern, cinematic interface for discovering and exploring LGBTQ+ film and media. The primary visual direction uses deep navy and blue-grey tones to create a strong dark interface, with a corresponding light theme using the same visual relationships and a neutral light background.
+
+The **dark theme is the primary visual direction**, as it provides strong contrast with film imagery and allows the colourful PrideMediaDB branding to stand out. A light theme is also planned as a companion option to support **accessibility and user preference**. Providing a choice of theme allows users to select the viewing experience they find most comfortable, while both themes will maintain appropriate colour contrast and readability.
+
+A limited core palette was selected to keep the interface visually consistent and avoid excessive use of colour. The two themes were developed using **[Coolors](https://coolors.co/)** and will be reviewed during implementation and accessibility testing.
+
+#### Dark Theme
+
+<details>
+<summary><strong>Dark Theme Colour Palette</strong> (Click to expand)</summary>
+
+![Dark theme colour palette](assets/images/readme-images/dark-coolors.png)
+
+*Colour palette created using Coolors, illustrating the primary colours used throughout the PrideMediaDB dark theme.*
+
+</details>
+
+The dark theme uses deep navy and blue-grey tones as its foundation, with a warm yellow accent used for primary actions, ratings and selected interface highlights.
+
+#### Light Theme
+
+<details>
+<summary><strong>Light Theme Colour Palette</strong> (Click to expand)</summary>
+
+![Light theme colour palette](assets/images/readme-images/light-coolors.png)
+
+*Colour palette created using Coolors, illustrating the primary colours used throughout the PrideMediaDB light theme.*
+
+</details>
+
+The light theme uses lighter neutral surfaces and dark navy text while retaining the same visual identity as the dark theme. It is intended as a companion theme rather than a separate colour scheme.
+
+#### PrideMediaDB Rainbow Gradient
+
+The PrideMediaDB rainbow gradient is a separate **brand treatment** rather than part of the core colour palette. It provides the distinctive rainbow identity of the project while allowing the main interface to remain visually controlled.
+
+<details>
+<summary><strong>Rainbow Gradient Examples</strong> (Click to expand)</summary>
+
+![PrideMediaDB rainbow gradient examples](assets/images/readme-images/rainbow-gradient-examples.png)
+
+*Examples of the PrideMediaDB rainbow gradient applied to selected interface elements, including buttons, progress and rating bars, navigation highlights, badges and accent lines.*
+
+</details><br>
+
+The gradient will be implemented using CSS and reused consistently across selected elements, including the logo, progress and rating bars, and other visual highlights. The final gradient will use smooth transitions between rich rainbow tones rather than treating each colour as a separate block. Representation labels will use colours associated with their relevant Pride flags where appropriate, rather than using the general PrideMediaDB gradient for every category.
+
 [Back to top](#pridemediadb)
 
 ---
-
 ### Typography
 
 [Back to top](#pridemediadb)
