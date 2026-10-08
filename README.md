@@ -299,6 +299,46 @@ The logo has been provided in WebP format to reduce file size while maintaining 
 
 ---
 
+#### Favicon & App Icons
+
+The PrideMediaDB favicon and app icon uses a ring and play symbol as a simple and recognisable extension of the main brand identity. The rainbow treatment connects the icon to the wider PrideMediaDB visual design, while the simplified form allows it to remain clear at small sizes.
+
+Multiple icon formats and sizes are used to support consistent branding across desktop browsers, search results and mobile devices.
+
+<details>
+<summary><strong>Browser Favicon</strong> (Click to expand)</summary>
+
+![PrideMediaDB browser favicon examples](assets/images/readme-images/browser-favicon.png)
+
+*PrideMediaDB favicon shown in browser tabs and Google search results in both light and dark themes.*
+
+</details><br>
+
+<details>
+<summary><strong>Android App Icons</strong> (Click to expand)</summary>
+
+![PrideMediaDB Android icon examples](assets/images/readme-images/android-icons.png)
+
+*PrideMediaDB icon shown in Android home-screen, splash-screen and app-switcher contexts.*
+
+</details><br>
+
+<details>
+<summary><strong>iOS App Icon</strong> (Click to expand)</summary>
+
+![PrideMediaDB iOS app icon](assets/images/readme-images/ios-icon.png)
+
+*PrideMediaDB icon shown as an iOS home-screen app icon.*
+
+</details><br>
+
+**UX Rationale:**  
+Using a consistent favicon and app icon across browsers and mobile devices helps users recognise PrideMediaDB quickly when browsing, switching between applications, bookmarking the site or adding it to a device home screen. The icon also maintains the visual connection between the main PrideMediaDB wordmark and the wider film/media branding.
+
+[Back to top](#pridemediadb)
+
+---
+
 ### Wireframes
 
 [Back to top](#pridemediadb)
