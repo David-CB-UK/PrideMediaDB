@@ -42,9 +42,9 @@
    * [Film Details and Representation](#film-details-and-representation)
    * [Ratings, Reviews and Watchlists](#ratings-reviews-and-watchlists)
 6. [Database](#database)
-   * [Database Design](#database-design)
+      * [Database Design](#database-design)
    * [Entity Relationship Diagram](#entity-relationship-diagram)
-   * [Django Models](#django-models)
+   * [Proposed Django Models](#proposed-django-models)
 7. [API Integration](#api-integration)
    * [API Research](#api-research)
    * [TMDb Integration](#tmdb-integration)
@@ -402,17 +402,71 @@ Using a consistent favicon and app icon across browsers and mobile devices helps
 
 ### Database Design
 
+Database design began during the planning stage to identify the information PrideMediaDB needs to store and how different records relate to one another.
+
+[ERDplus](https://erdplus.com/) was used to explore the proposed entities, attributes and relationships and create two initial database-design diagrams:
+
+- **Conceptual Entity Relationship Diagram (ERD):** illustrates the proposed entities, their attributes and relationships.
+- **Relational Schema:** translates the conceptual design into database tables, including primary keys, foreign keys and relationships between tables. This schema was generated using ERDPlus from the conceptual design.
+
+The initial design considers the project's main data requirements, including films, users, ratings, reviews, watchlists, watched status, film suggestions and LGBTQ+ representation.
+
+These diagrams document the planning-stage design rather than a confirmed final database structure. The generated relational schema will be reviewed against the project's user stories, acceptance criteria and prioritised features as development progresses.
+
+Following an Agile approach, the design may evolve as requirements are refined and implementation decisions are made. Test Driven Development (TDD) will guide implementation and help verify expected behaviour, including relevant model relationships, validation rules and data constraints.
+
+Django models and migrations will be used to implement and manage the database structure. Depending on the relationships involved, Django may generate intermediary tables automatically or use explicitly defined models where additional fields or constraints are required.
+
+The Django Models section will document the database structure actually implemented. The initial diagrams are retained as evidence of the design process and should not be interpreted as a guarantee that every proposed table or relationship will be included in the finished application.
+
 [Back to top](#pridemediadb)
 
 ---
 
 ### Entity Relationship Diagram
 
+The following diagrams illustrate the initial database-design process undertaken using ERDPlus.
+
+<details>
+<summary><strong>Conceptual Entity Relationship Diagram</strong> (Click to expand)</summary>
+
+![PrideMediaDB conceptual entity relationship diagram created using ERDPlus](assets/images/readme-images/conceptual-erd.png)
+
+*Conceptual design showing the proposed entities, their attributes and relationships.*
+
+</details><br>
+
+<details>
+<summary><strong>Initial Relational Schema</strong> (Click to expand)</summary>
+
+![PrideMediaDB initial relational schema generated using ERDPlus](assets/images/readme-images/relational-schema.png)
+
+*Initial relational schema generated from the conceptual design, showing proposed tables, primary keys and foreign keys. The generated structure remains subject to review.*
+
+</details><br>
+
 [Back to top](#pridemediadb)
 
 ---
 
-### Django Models
+### Proposed Django Models
+
+Django models will define the data stored by PrideMediaDB and the relationships between records in the database.
+
+Based on the current project requirements, the proposed data models are expected to cover the following areas:
+
+- **Films:** Store the core film information required for browsing, searching and viewing film details.
+- **Ratings and reviews:** Store users' ratings and written reviews separately, linked to the relevant film and user.
+- **Watchlist and watched status:** Record films users want to watch and films they have watched, associated with their accounts.
+- **Film suggestions:** Store user-submitted film suggestions and their moderation status for administrator review.
+- **Genres and representation categories:** Organise films using reusable categories to support browsing and exploration of LGBTQ+ representation.
+- **Additional film metadata:** Support relevant information such as release dates, languages, countries, age ratings and external film identifiers where required by the agreed features.
+
+Django's built-in authentication system will be considered when implementing user accounts. Relationships between models will be defined according to the data requirements, using foreign keys, many-to-many relationships and intermediary models where appropriate.
+
+The proposed models will be refined during development to reflect the prioritised user stories, acceptance criteria and testing requirements. The initial ERD and relational schema provide a starting point rather than a fixed specification for every model or database table.
+
+Django migrations will be used to apply model changes to the database. The actual model structure and relationships will be documented as implementation progresses.
 
 [Back to top](#pridemediadb)
 
