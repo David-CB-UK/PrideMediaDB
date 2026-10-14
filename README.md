@@ -342,6 +342,230 @@ Using a consistent favicon and app icon across browsers and mobile devices helps
 
 ### Wireframes
 
+This section documents the planning and design of the PrideMediaDB user interface, from initial wireframes to more detailed visual mock-ups.
+
+ChatGPT was used as a design aid to explore layouts, generate visual concepts and develop alternative approaches. Unlike my previous projects, in this project, I wanted to explore how AI-assisted design could help me develop ideas, compare different layouts and produce visual examples before implementation and in doing so possibly speed up the initial design process.
+
+The results varied, and some designs required repeated revisions to get closer to what I wanted. Even after several attempts, some details did not turn out as intended, but the designs could still provide useful examples and ideas to work from.
+
+Design decisions remained guided by the project's requirements and my own preferences. This included selecting useful layouts and features, rejecting unsuitable alternatives, refining the colour schemes and branding, and considering how the interface should work for different users. The aim was not to accept every generated design as a finished product, but to use the most useful elements as a basis for further planning and development.
+
+The wireframes are being reviewed and organised by page and feature. Low-fidelity wireframes will help establish page structure and functionality, while selected high-fidelity mock-ups will provide more detailed visual references. Not every page requires a high-fidelity design, and logged-in and logged-out versions are included where the user experience differs.
+
+The designs will be refined as necessary to maintain consistency with the agreed branding, user stories, acceptance criteria, accessibility considerations and responsive layout requirements. The wireframes support the planning process; implementation and functionality will be developed and tested separately in accordance with the project's Test-Driven Development (TDD) requirements.
+
+<details>
+<summary><strong>1. Homepage</strong> (Click to expand)</summary>
+
+#### Logged-out homepage — Low resolution
+
+![Logged-out homepage wireframe](assets/images/readme-images/wireframes/homepage-logged-out-low-res.png)
+
+This wireframe shows the main homepage layout for visitors who are not signed in.
+
+#### Logged-in homepage — Low resolution
+
+**TODO:** Create or confirm the logged-in homepage wireframe.
+
+![Logged-in homepage wireframe](assets/images/readme-images/wireframes/homepage-logged-in-low-res.png)
+
+This wireframe will show the homepage available to signed-in users.
+
+#### Logged-out homepage — High resolution Dark
+
+![Logged-out homepage — Dark theme](assets/images/readme-images/wireframes/hompage-logged-out-dark-logged-out.png)
+
+This design develops the logged-out low res homepage into a more detailed visual mock-up using the dark theme.
+
+#### Logged-out homepage — High resolution Light
+
+![Logged-out homepage — Light theme](assets/images/readme-images/wireframes/hompage-logged-out-light-logged-out-high-red.png)
+
+This design provides a light-theme version of the logged-out homepage.
+
+</details>
+<br>
+<details>
+<summary><strong>2. Browse Films and Search Results</strong> (Click to expand)</summary>
+
+#### Browse films
+
+![Browse films wireframe](TODO: assets/images/readme-images/PrideMedia%20Browse%20Films%20Wireframe.png)
+
+This wireframe shows how users browse the film database and explore available titles.
+
+#### Search and results
+
+![Search and results wireframe](TODO: assets/images/readme-images/wireframe-search-and-results.jpeg)
+
+This wireframe shows the search interface and how matching films are displayed.
+
+**TODO:** Review both layouts and finalise the browse and search experience.
+
+</details>
+<br>
+<details>
+<summary><strong>3. Film Detail Page</strong> (Click to expand)</summary>
+
+#### Logged-out film detail
+
+![Film detail page wireframe](TODO: assets/images/readme-images/PrideMedia%20Film%20Detail%20Page%20Wireframe.png)
+
+This wireframe shows the information displayed on an individual film page for visitors who are not signed in.
+
+![Logged-out title page wireframe](TODO: assets/images/readme-images/Wireframe_logged_out_title_page.png)
+
+This is an alternative title-page design to compare with the main film detail layout.
+
+#### Logged-in film detail
+
+![Logged-in film detail wireframe](TODO: assets/images/readme-images/PrideMedia%20Logged-In%20Film%20Detail%20Wireframe.png)
+
+This version shows the film page for signed-in users, including personal actions such as rating, reviewing and managing a watchlist.
+
+![Logged-in title page wireframe](TODO: assets/images/readme-images/Wireframe_logged_in_title_page.png)
+
+This is an additional logged-in title-page design for comparison.
+
+#### Alternative film detail designs
+
+![Film detail wireframe comparison](TODO: assets/images/readme-images/PrideMedia%20Film%20Detail%20Wireframe%20Comparison.png)
+
+This image compares alternative film detail layouts.
+
+![Film detail wireframe mock-up](TODO: assets/images/readme-images/PRIDEMEDIA%20Film%20Detail%20Wireframe%20Mockup(1).png)
+
+This is another film detail concept to review alongside the other designs.
+
+**TODO:** Compare the designs, identify duplicates or superseded versions, and agree on the final logged-out and logged-in layouts.
+
+</details>
+<br>
+<details>
+<summary><strong>4. My Account and User Dashboard</strong> (Click to expand)</summary>
+
+#### User dashboard
+
+![User dashboard wireframe](TODO: assets/images/readme-images/PrideMediaDB%20User%20Dashboard%20Wireframe.png)
+
+This wireframe explores the account dashboard available to signed-in users.
+
+#### Alternative dashboard design
+
+![Cinematic profile dashboard](TODO: assets/images/readme-images/PrideMediaDB%20Cinematic%20Profile%20Dashboard.png)
+
+This design explores an alternative visual presentation for the user dashboard.
+
+**TODO:** Review the designs and decide which account features should appear on the dashboard.
+
+</details>
+<br>
+<details>
+<summary><strong>5. Registration and Login</strong> (Click to expand)</summary>
+
+#### Registration
+
+![Registration wireframe](TODO: assets/images/readme-images/registration-wireframe.png)
+
+This page will allow new users to create an account.
+
+#### Login
+
+![Login wireframe](TODO: assets/images/readme-images/login-wireframe.png)
+
+This page will allow existing users to sign in.
+
+**TODO:** Create and review the registration and login wireframes.
+
+</details>
+<br>
+<details>
+<summary><strong>6. Watchlist and Watched Films</strong> (Click to expand)</summary>
+
+![Watchlist and watched films wireframe](TODO: assets/images/readme-images/watchlist-wireframe.png)
+
+This page will allow signed-in users to view and manage saved films and, where supported, mark films as watched.
+
+**TODO:** Create and review the wireframe.
+
+</details>
+<br>
+<details>
+<summary><strong>7. Ratings and Reviews</strong> (Click to expand)</summary>
+
+#### My ratings and reviews
+
+![My ratings and reviews wireframe](TODO: assets/images/readme-images/my-ratings-reviews-wireframe.png)
+
+This page will show the user's submitted ratings and reviews.
+
+#### Add or edit a rating and review
+
+![Add or edit review wireframe](TODO: assets/images/readme-images/add-edit-review-wireframe.png)
+
+This form will allow users to submit or update a rating and review.
+
+**TODO:** Create and review the ratings and reviews wireframes.
+
+</details>
+<br>
+<details>
+<summary><strong>8. Suggest a Film</strong> (Click to expand)</summary>
+
+![Suggest a film wireframe](TODO: assets/images/readme-images/suggest-film-wireframe.png)
+
+This page will allow signed-in users to suggest a film for inclusion in the database.
+
+**TODO:** Create and review the wireframe.
+
+</details>
+<br>
+<details>
+<summary><strong>9. Film Management</strong> (Click to expand)</summary>
+
+![Film management wireframe](TODO: assets/images/readme-images/film-management-wireframe.png)
+
+This is a placeholder for a possible custom interface for managing film records.
+
+**TODO:** Determine whether Django's built-in admin interface meets the project requirements before designing a custom page.
+
+</details>
+<br>
+<details>
+<summary><strong>10. Film Suggestion Review</strong> (Click to expand)</summary>
+
+![Film suggestion review wireframe](TODO: assets/images/readme-images/film-suggestion-review-wireframe.png)
+
+This is a placeholder for a possible interface for reviewing submitted film suggestions.
+
+**TODO:** Determine whether Django admin can handle suggestion reviews before designing a custom page.
+
+</details>
+<br>
+<details>
+<summary><strong>11. Custom 404 Error Page</strong> (Click to expand)</summary>
+
+![404 error page wireframe](TODO: assets/images/readme-images/404-wireframe.png)
+
+This page will help users recover when they visit a page that cannot be found.
+
+**TODO:** Create and review the custom 404 wireframe.
+
+</details>
+<br>
+<details>
+<summary><strong>12. Responsive Layouts and Shared States</strong> (Click to expand)</summary>
+
+![Responsive homepage wireframe](TODO: assets/images/readme-images/PrideMedia%20Responsive%20Wireframe%20Homepage.png)
+
+This design provides a reference for how the homepage layout adapts to different screen sizes.
+
+**TODO:** Review responsive layouts and identify any additional designs needed for mobile screens, form validation, empty search results and other shared states.
+
+</details>
+
+<br>
+
 [Back to top](#pridemediadb)
 
 ---
@@ -404,7 +628,7 @@ Using a consistent favicon and app icon across browsers and mobile devices helps
 
 Database design began during the planning stage to identify the information PrideMediaDB needs to store and how different records relate to one another.
 
-[ERDplus](https://erdplus.com/) was used to explore the proposed entities, attributes and relationships and create two initial database-design diagrams:
+[ERD Plus](https://erdplus.com/) was used to explore the proposed entities, attributes and relationships and create two initial database-design diagrams:
 
 - **Conceptual Entity Relationship Diagram (ERD):** illustrates the proposed entities, their attributes and relationships.
 - **Relational Schema:** translates the conceptual design into database tables, including primary keys, foreign keys and relationships between tables. This schema was generated using ERDPlus from the conceptual design.
@@ -510,9 +734,7 @@ The following technologies, frameworks, APIs and development tools were used dur
 | **[Visual Studio Code](https://code.visualstudio.com/)** | Primary development environment. |
 | **[RealFaviconGenerator](https://realfavicongenerator.net/)** | Used to generate the favicon package and platform-specific icons from the completed project logo. |
 | **ChatGPT** | Used as an AI-assisted learning and development tool to discuss implementation approaches, **TODO:** add more as relevant |
-
-
-
+| **[ERD Plus](https://erdplus.com/)** | As noted in [Database Design](#database-design) section; it was used to create two initial database-design diagrams and explore the proposed entities, attributes and relationships. |
 
 
 <!-- **TODO:**
