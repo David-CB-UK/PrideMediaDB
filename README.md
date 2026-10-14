@@ -226,7 +226,7 @@ A limited core palette was selected to keep the interface visually consistent an
 <details>
 <summary><strong>Dark Theme Colour Palette</strong> (Click to expand)</summary>
 
-![Dark theme colour palette](assets/images/pridemediadb-logo-dark.png)
+![Dark theme colour palette](assets/images/readme-images/dark-coolors.png)
 
 *Colour palette created using Coolors, illustrating the primary colours used throughout the PrideMediaDB dark theme.*
 
@@ -239,7 +239,7 @@ The dark theme uses deep navy and blue-grey tones as its foundation, with a warm
 <details>
 <summary><strong>Light Theme Colour Palette</strong> (Click to expand)</summary>
 
-![Light theme colour palette](assets/images/pridemediadb-logo-light.png)
+![Light theme colour palette](assets/images/readme-images/light-coolors.png)
 
 *Colour palette created using Coolors, illustrating the primary colours used throughout the PrideMediaDB light theme.*
 
@@ -292,7 +292,7 @@ The logo has been provided in WebP format to reduce file size while maintaining 
 
 ### Light background
 
-![PrideMediaDB logo on light background](assets/images/readme-images/pridemediadb-logo-light.png)
+![PrideMediaDB logo on light background](assets/images/pridemediadb-logo-light.png)
 
 </details>
 
