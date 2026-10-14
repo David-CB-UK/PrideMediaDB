@@ -496,7 +496,43 @@ Django migrations will be used to apply model changes to the database. The actua
 
 ---
 
-## Technologies Used
+### Technologies Used
+
+The following technologies, frameworks, APIs and development tools were used during the development of the PrideMediaDB site.
+
+| Technology | Purpose |
+|------------|---------|
+| **[HTML5](https://developer.mozilla.org/docs/Web/HTML)** | Provides the semantic structure of the application. |
+| **[CSS3](https://developer.mozilla.org/docs/Web/CSS)** | Creates the custom styling, responsive layout and animations. |
+| **[Coolors](https://coolors.co/)** | Used to document the project's colour palette during the design process. |
+| **[Git](https://git-scm.com/)** | Version control throughout development. |
+| **[GitHub](https://github.com/)** | Repository hosting and version control. |
+| **[Visual Studio Code](https://code.visualstudio.com/)** | Primary development environment. |
+| **[RealFaviconGenerator](https://realfavicongenerator.net/)** | Used to generate the favicon package and platform-specific icons from the completed project logo. |
+| **ChatGPT** | Used as an AI-assisted learning and development tool to discuss implementation approaches, **TODO:** add more as relevant |
+
+
+
+
+
+<!-- **TODO:**
+| **Lighthouse** | Used through Chrome DevTools to assess performance, accessibility, best practices and SEO throughout development. |
+| **[W3C HTML Validator](https://validator.w3.org/)** | Used to validate the project's HTML for syntax errors and standards compliance. |
+| **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** | Used to validate the project's CSS and identify potential issues. |
+| **[JSHint](https://jshint.com/)** | Used to analyse the JavaScript code for syntax errors, potential bugs and code quality improvements. |
+| **[JavaScript](https://developer.mozilla.org/docs/Web/JavaScript)** | Implements the game logic, DOM manipulation, score tracking and API interaction. |
+| **[Bootstrap 5](https://getbootstrap.com/)** | Used for the responsive grid system, navigation bar, accordion component and utility classes. |
+| **[Fetch API](https://TBC)** | **TODO:**
+| **[Google Fonts](https://fonts.google.com/)** | Provides the **TODO:**TO ADD  and **TODO:**TO ADD  typefaces used throughout the application. |
+| **[GitHub Pages](https://pages.github.com/)** | Hosts the live application. |
+| **[Image Robo](https://imagerobo.com/)** | Used to resize the custom card back image to match the Deck of Cards API dimensions (226 × 314 pixels). |
+| **[Chrome DevTools](https://developer.chrome.com/docs/devtools/)** | Used for debugging, responsive testing and Lighthouse analysis. |
+| **[PhotoRoom](https://www.photoroom.com/)** | Used to remove the background and create transparent edges for the custom card back image. |
+| **[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)** | Used to verify colour contrast ratios and support accessibility testing. |
+| **[Am I Responsive?](https://ui.dev/amiresponsive)** | Used to generate the responsive device mock-up image displayed within the project documentation. |
+
+-->
+<br>
 
 [Back to top](#pridemediadb)
 
