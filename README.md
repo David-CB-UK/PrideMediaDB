@@ -226,7 +226,7 @@ A limited core palette was selected to keep the interface visually consistent an
 <details>
 <summary><strong>Dark Theme Colour Palette</strong> (Click to expand)</summary>
 
-![Dark theme colour palette](assets/images/readme-images/dark-coolors.png)
+![Dark theme colour palette](assets/images/pridemediadb-logo-dark.png)
 
 *Colour palette created using Coolors, illustrating the primary colours used throughout the PrideMediaDB dark theme.*
 
@@ -239,7 +239,7 @@ The dark theme uses deep navy and blue-grey tones as its foundation, with a warm
 <details>
 <summary><strong>Light Theme Colour Palette</strong> (Click to expand)</summary>
 
-![Light theme colour palette](assets/images/readme-images/light-coolors.png)
+![Light theme colour palette](assets/images/pridemediadb-logo-light.png)
 
 *Colour palette created using Coolors, illustrating the primary colours used throughout the PrideMediaDB light theme.*
 
@@ -354,6 +354,12 @@ The wireframes are being reviewed and organised by page and feature. Low-fidelit
 
 The designs will be refined as necessary to maintain consistency with the agreed branding, user stories, acceptance criteria, accessibility considerations and responsive layout requirements. The wireframes support the planning process; implementation and functionality will be developed and tested separately in accordance with the project's Test-Driven Development (TDD) requirements.
 
+**Wireframes and delivery scope**
+
+The wireframes illustrate the proposed user experience and may include features that are not planned for implementation during the current Project 3 delivery period. Final implementation scope will be determined by the MoSCoW prioritisation of user stories and requirements, taking account of the project assessment criteria, available development time and technical feasibility.
+
+Features marked as *Could Have* may be deferred if time or technical constraints prevent implementation. Features explicitly excluded from the current release will be documented as *Won't Have* for this delivery period, without necessarily ruling them out as future enhancements.
+
 <details>
 <summary><strong>1. Homepage</strong> (Click to expand)</summary>
 
@@ -364,8 +370,6 @@ The designs will be refined as necessary to maintain consistency with the agreed
 This wireframe shows the main homepage layout for visitors who are not signed in.
 
 #### Logged-in homepage — Low resolution
-
-**TODO:** Create or confirm the logged-in homepage wireframe.
 
 ![Logged-in homepage wireframe](assets/images/readme-images/wireframes/homepage-logged-in-low-res.png)
 
@@ -382,50 +386,36 @@ This design develops the logged-out low res homepage into a more detailed visual
 ![Logged-out homepage — Light theme](assets/images/readme-images/wireframes/hompage-logged-out-light-logged-out-high-red.png)
 
 This design provides a light-theme version of the logged-out homepage.
-
 </details>
-<br>
+
 <details>
 <summary><strong>2. Browse Films and Search Results</strong> (Click to expand)</summary>
 
-#### Browse films
+#### Browse films / Search results Page
 
-![Browse films wireframe](TODO: assets/images/readme-images/PrideMedia%20Browse%20Films%20Wireframe.png)
+![Browse films wireframe](assets/images/readme-images/wireframes/browse-films-logged-out-low-res.png)
 
 This wireframe shows how users browse the film database and explore available titles.
 
 #### Search and results
 
-![Search and results wireframe](TODO: assets/images/readme-images/wireframe-search-and-results.jpeg)
+![Search and results wireframe](assets/images/readme-images/wireframes/search-and-results.png)
 
 This wireframe shows the search interface and how matching films are displayed.
 
-**TODO:** Review both layouts and finalise the browse and search experience.
-
 </details>
-<br>
+
 <details>
 <summary><strong>3. Film Detail Page</strong> (Click to expand)</summary>
 
-#### Logged-out film detail
+#### Logged in and out film details Page
 
-![Film detail page wireframe](TODO: assets/images/readme-images/PrideMedia%20Film%20Detail%20Page%20Wireframe.png)
+![Film detail page wireframe](assets/images/readme-images/wireframes/title-detail-low-res.png)
 
-This wireframe shows the information displayed on an individual film page for visitors who are not signed in.
+This wireframe shows the information displayed on an individual film page for visitors who are not signed in and users that are signed in.
 
-![Logged-out title page wireframe](TODO: assets/images/readme-images/Wireframe_logged_out_title_page.png)
+***Note:*** _Where to watch (UK) is shown as a potential future enhancement. Implementation is subject to MoSCoW prioritisation and confirmation of a suitable data source; it is not currently a delivery commitment._
 
-This is an alternative title-page design to compare with the main film detail layout.
-
-#### Logged-in film detail
-
-![Logged-in film detail wireframe](TODO: assets/images/readme-images/PrideMedia%20Logged-In%20Film%20Detail%20Wireframe.png)
-
-This version shows the film page for signed-in users, including personal actions such as rating, reviewing and managing a watchlist.
-
-![Logged-in title page wireframe](TODO: assets/images/readme-images/Wireframe_logged_in_title_page.png)
-
-This is an additional logged-in title-page design for comparison.
 
 #### Alternative film detail designs
 
@@ -440,7 +430,7 @@ This is another film detail concept to review alongside the other designs.
 **TODO:** Compare the designs, identify duplicates or superseded versions, and agree on the final logged-out and logged-in layouts.
 
 </details>
-<br>
+
 <details>
 <summary><strong>4. My Account and User Dashboard</strong> (Click to expand)</summary>
 
@@ -459,7 +449,7 @@ This design explores an alternative visual presentation for the user dashboard.
 **TODO:** Review the designs and decide which account features should appear on the dashboard.
 
 </details>
-<br>
+
 <details>
 <summary><strong>5. Registration and Login</strong> (Click to expand)</summary>
 
@@ -478,7 +468,7 @@ This page will allow existing users to sign in.
 **TODO:** Create and review the registration and login wireframes.
 
 </details>
-<br>
+
 <details>
 <summary><strong>6. Watchlist and Watched Films</strong> (Click to expand)</summary>
 
@@ -489,7 +479,7 @@ This page will allow signed-in users to view and manage saved films and, where s
 **TODO:** Create and review the wireframe.
 
 </details>
-<br>
+
 <details>
 <summary><strong>7. Ratings and Reviews</strong> (Click to expand)</summary>
 
@@ -508,18 +498,18 @@ This form will allow users to submit or update a rating and review.
 **TODO:** Create and review the ratings and reviews wireframes.
 
 </details>
-<br>
+
 <details>
 <summary><strong>8. Suggest a Film</strong> (Click to expand)</summary>
 
-![Suggest a film wireframe](TODO: assets/images/readme-images/suggest-film-wireframe.png)
+![Suggest a film wireframe](assets/images/readme-images/wireframes/film-suggestion.png)
 
 This page will allow signed-in users to suggest a film for inclusion in the database.
 
 **TODO:** Create and review the wireframe.
 
 </details>
-<br>
+
 <details>
 <summary><strong>9. Film Management</strong> (Click to expand)</summary>
 
@@ -530,7 +520,7 @@ This is a placeholder for a possible custom interface for managing film records.
 **TODO:** Determine whether Django's built-in admin interface meets the project requirements before designing a custom page.
 
 </details>
-<br>
+
 <details>
 <summary><strong>10. Film Suggestion Review</strong> (Click to expand)</summary>
 
@@ -541,7 +531,7 @@ This is a placeholder for a possible interface for reviewing submitted film sugg
 **TODO:** Determine whether Django admin can handle suggestion reviews before designing a custom page.
 
 </details>
-<br>
+
 <details>
 <summary><strong>11. Custom 404 Error Page</strong> (Click to expand)</summary>
 
@@ -552,7 +542,7 @@ This page will help users recover when they visit a page that cannot be found.
 **TODO:** Create and review the custom 404 wireframe.
 
 </details>
-<br>
+
 <details>
 <summary><strong>12. Responsive Layouts and Shared States</strong> (Click to expand)</summary>
 
