@@ -42,8 +42,8 @@
    * [Film Details and Representation](#film-details-and-representation)
    * [Ratings, Reviews and Watchlists](#ratings-reviews-and-watchlists)
 6. [Database](#database)
-      * [Database Design](#database-design)
-   * [Entity Relationship Diagram](#entity-relationship-diagram)
+   * [Database Design](#database-design)
+   * [Database Design Diagrams](#database-design-diagrams)
    * [Proposed Django Models](#proposed-django-models)
 7. [API Integration](#api-integration)
    * [API Research](#api-research)
@@ -423,7 +423,7 @@ The Django Models section will document the database structure actually implemen
 
 ---
 
-### Entity Relationship Diagram
+### Database Design Diagrams
 
 The following diagrams illustrate the initial database-design process undertaken using ERDPlus.
 
