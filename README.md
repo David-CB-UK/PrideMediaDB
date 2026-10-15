@@ -427,6 +427,9 @@ _**Note:** Where to Watch is shown as a potential future enhancement and is not 
 
 This wireframe explores the account dashboard available to signed-in users.
 
+</details>
+
+<details>
 <summary><strong>5. Registration and Login</strong> (Click to expand)</summary>
 
 #### Login and Registration
