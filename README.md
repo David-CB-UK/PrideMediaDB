@@ -412,22 +412,9 @@ This wireframe shows the search interface and how matching films are displayed.
 
 ![Film detail page wireframe](assets/images/readme-images/wireframes/title-detail-low-res.png)
 
-This wireframe shows the information displayed on an individual film page for visitors who are not signed in and users that are signed in.
+This wireframe shows the individual film detail page for both signed-in and signed-out visitors. It brings together key film information, LGBTQ+ representation details, community ratings and reviews, and actions available to users depending on whether they are logged in. Signed-in users can manage their own rating and review and use personal film-tracking features, while visitors can explore film information and are prompted to sign in when accessing member-only actions.
 
-***Note:*** _Where to watch (UK) is shown as a potential future enhancement. Implementation is subject to MoSCoW prioritisation and confirmation of a suitable data source; it is not currently a delivery commitment._
-
-
-#### Alternative film detail designs
-
-![Film detail wireframe comparison](TODO: assets/images/readme-images/PrideMedia%20Film%20Detail%20Wireframe%20Comparison.png)
-
-This image compares alternative film detail layouts.
-
-![Film detail wireframe mock-up](TODO: assets/images/readme-images/PRIDEMEDIA%20Film%20Detail%20Wireframe%20Mockup(1).png)
-
-This is another film detail concept to review alongside the other designs.
-
-**TODO:** Compare the designs, identify duplicates or superseded versions, and agree on the final logged-out and logged-in layouts.
+_**Note:** Where to Watch is shown as a potential future enhancement and is not planned for implementation in the current Project 3 release._
 
 </details>
 
@@ -436,47 +423,28 @@ This is another film detail concept to review alongside the other designs.
 
 #### User dashboard
 
-![User dashboard wireframe](TODO: assets/images/readme-images/PrideMediaDB%20User%20Dashboard%20Wireframe.png)
+![User dashboard wireframe](assets/images/readme-images/wireframes/my-account-and-user-dashboard.png)
 
 This wireframe explores the account dashboard available to signed-in users.
 
-#### Alternative dashboard design
-
-![Cinematic profile dashboard](TODO: assets/images/readme-images/PrideMediaDB%20Cinematic%20Profile%20Dashboard.png)
-
-This design explores an alternative visual presentation for the user dashboard.
-
-**TODO:** Review the designs and decide which account features should appear on the dashboard.
-
-</details>
-
-<details>
 <summary><strong>5. Registration and Login</strong> (Click to expand)</summary>
 
-#### Registration
-
-![Registration wireframe](TODO: assets/images/readme-images/registration-wireframe.png)
-
-This page will allow new users to create an account.
-
-#### Login
+#### Login and Registration
 
 ![Login wireframe](assets/images/readme-images/wireframes/login-and-registration-mockups.png)
 
 ![Login wireframe](assets/images/readme-images/wireframes/login-and-registration-low-res.png)
 
-This page will allow existing users to sign in or click through to the  register page.
+This page will allow existing users to sign in or click through to the  Registration page which will allow new users to create an account.
 
 </details>
 
 <details>
 <summary><strong>6. Watchlist and Watched Films</strong> (Click to expand)</summary>
 
-![Watchlist and watched films wireframe](TODO: assets/images/readme-images/watchlist-wireframe.png)
+![Watchlist and watched films wireframe](assets/images/readme-images/wireframes/watchlist-and-watched-low-res.png)
 
-This page will allow signed-in users to view and manage saved films and, where supported, mark films as watched.
-
-**TODO:** Create and review the wireframe.
+This page allows signed-in users to view their Watchlist and Watched films. Marking a film as watched removes it from the Watchlist and records when it was marked as watched.
 
 </details>
 
@@ -487,15 +455,7 @@ This page will allow signed-in users to view and manage saved films and, where s
 
 ![My ratings and reviews wireframe](assets/images/readme-images/wireframes/my-ratings.png)
 
-This page will show the user's submitted ratings and reviews.
-
-#### Add or edit a rating and review
-
-![Add or edit review wireframe](TODO: assets/images/readme-images/add-edit-review-wireframe.png)
-
-This form will allow users to submit or update a rating and review.
-
-**TODO:** Create and review the ratings and reviews wireframes.
+This wireframe tab shows the ratings and reviews submitted by a signed-in user, with each film displayed alongside the user's 1–5 star rating and any optional written review. Ratings can be submitted without a written review. Users can view their previous ratings and reviews in one place, with each film linking to its individual film detail page, where they can manage their own rating or review.
 
 </details>
 
@@ -506,29 +466,27 @@ This form will allow users to submit or update a rating and review.
 
 This page will allow signed-in users to suggest a film for inclusion in the database.
 
-**TODO:** Create and review the wireframe.
-
 </details>
 
 <details>
 <summary><strong>9. Film Management</strong> (Click to expand)</summary>
+<br>
+Film records will be managed through Django's built-in administration interface, where it meets the project's requirements. This will allow authorised administrators to add, view, update and manage film information without requiring a separate custom management interface.
 
-![Film management wireframe](TODO: assets/images/readme-images/film-management-wireframe.png)
+The implementation will be tested to ensure that film records can be managed correctly and that administrative access is restricted to authorised users.
 
-This is a placeholder for a possible custom interface for managing film records.
-
-**TODO:** Determine whether Django's built-in admin interface meets the project requirements before designing a custom page.
+A custom film management interface is not currently planned for Project 3.
 
 </details>
 
 <details>
 <summary><strong>10. Film Suggestion Review</strong> (Click to expand)</summary>
+<br>
+Submitted film suggestions will be reviewed through Django's built-in administration interface, where it meets the project's requirements. This will allow authorised administrators to review suggestions and approve or reject them before films are added to the PrideMediaDB catalogue.
 
-![Film suggestion review wireframe](TODO: assets/images/readme-images/film-suggestion-review-wireframe.png)
+The implementation will be tested to ensure that suggestions can be reviewed and their status managed correctly, and that administrative access is restricted to authorised users.
 
-This is a placeholder for a possible interface for reviewing submitted film suggestions.
-
-**TODO:** Determine whether Django admin can handle suggestion reviews before designing a custom page.
+A separate custom film suggestion review interface is not currently planned for Project 3.
 
 </details>
 
@@ -540,17 +498,6 @@ This is a placeholder for a possible interface for reviewing submitted film sugg
 ![404 error page dark wireframe](assets/images/readme-images/wireframes/404-dark-high-res.png)
 
 These pages will help users recover when they visit a page that cannot be found.
-
-</details>
-
-<details>
-<summary><strong>12. Responsive Layouts and Shared States</strong> (Click to expand)</summary>
-
-![Responsive homepage wireframe](TODO: assets/images/readme-images/PrideMedia%20Responsive%20Wireframe%20Homepage.png)
-
-This design provides a reference for how the homepage layout adapts to different screen sizes.
-
-**TODO:** Review responsive layouts and identify any additional designs needed for mobile screens, form validation, empty search results and other shared states.
 
 </details>
 
@@ -579,6 +526,13 @@ This design provides a reference for how the homepage layout adapts to different
 ---
 
 ### Responsive Design
+
+PrideMediaDB is developed using a **mobile-first approach**, with layouts designed initially for smaller screens and progressively adapted for tablets, laptops and desktop computers. The site will be responsive, allowing its content and navigation to adjust to different screen sizes and devices.
+
+The design will aim to provide a consistent experience across screen sizes, with consideration for readable text, accessible controls, clear navigation and layouts that make effective use of the available space. Both dark and light themes will be supported across the site.
+
+Responsive behaviour will be implemented and tested as the relevant pages and features are developed.
+
 
 [Back to top](#pridemediadb)
 
