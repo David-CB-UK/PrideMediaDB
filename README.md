@@ -461,11 +461,11 @@ This page will allow new users to create an account.
 
 #### Login
 
-![Login wireframe](TODO: assets/images/readme-images/login-wireframe.png)
+![Login wireframe](assets/images/readme-images/wireframes/login-and-registration-mockups.png)
 
-This page will allow existing users to sign in.
+![Login wireframe](assets/images/readme-images/wireframes/login-and-registration-low-res.png)
 
-**TODO:** Create and review the registration and login wireframes.
+This page will allow existing users to sign in or click through to the  register page.
 
 </details>
 
@@ -485,7 +485,7 @@ This page will allow signed-in users to view and manage saved films and, where s
 
 #### My ratings and reviews
 
-![My ratings and reviews wireframe](TODO: assets/images/readme-images/my-ratings-reviews-wireframe.png)
+![My ratings and reviews wireframe](assets/images/readme-images/wireframes/my-ratings.png)
 
 This page will show the user's submitted ratings and reviews.
 
@@ -535,11 +535,11 @@ This is a placeholder for a possible interface for reviewing submitted film sugg
 <details>
 <summary><strong>11. Custom 404 Error Page</strong> (Click to expand)</summary>
 
-![404 error page wireframe](TODO: assets/images/readme-images/404-wireframe.png)
+![404 error page light wireframe](assets/images/readme-images/wireframes/404-light-high-res.png)
 
-This page will help users recover when they visit a page that cannot be found.
+![404 error page dark wireframe](assets/images/readme-images/wireframes/404-dark-high-res.png)
 
-**TODO:** Create and review the custom 404 wireframe.
+These pages will help users recover when they visit a page that cannot be found.
 
 </details>
 
