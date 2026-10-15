@@ -288,7 +288,7 @@ The logo has been provided in WebP format to reduce file size while maintaining 
 
 ### Dark background
 
-![PrideMediaDB logo on dark background](assets/images/readme-images/pridemediadb-logo-dark.png)
+![PrideMediaDB logo on dark background](assets/images/pridemediadb-logo-dark.png)
 
 ### Light background
 
