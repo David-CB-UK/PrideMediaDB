@@ -183,12 +183,16 @@ The [PrideMediaDB – GitHub Project Board](https://github.com/users/David-CB-UK
 
 ### MoSCoW Prioritisation
 
-The project uses the MoSCoW method to prioritise requirements:
+The project uses the MoSCoW method to prioritise requirements according to their importance and available development time.
 
-- **Must Have**
-- **Should Have**
-- **Could Have**
-- **Won't Have**
+The current planning baseline allocates development effort as follows:
+
+- **Must Have (60%)** – Essential requirements for the project.
+- **Should Have (20%)** – Important features that add value but are not essential.
+- **Could Have (20%)** – Desirable features to implement if time allows.
+- **Won't Have** – Features excluded from the current assessed project scope and reserved for potential future development.
+
+For the complete prioritised requirements and user stories, see the [Project Backlog](docs/PROJECT-BACKLOG.md).
 
 [Back to top](#pridemediadb)
 
