@@ -149,6 +149,8 @@ The user stories are managed through the project's GitHub Issues and Project Boa
 
 ## Project Management
 
+PrideMediaDB is developed using Agile principles, with GitHub Issues and GitHub Projects used to organise, prioritise and track development work.
+
 [Back to top](#pridemediadb)
 
 ---
@@ -160,6 +162,8 @@ The user stories are managed through the project's GitHub Issues and Project Boa
 ---
 
 ### GitHub Project Board
+
+The [PrideMediaDB – GitHub Project Board](https://github.com/users/David-CB-UK/projects/6/views/2) is used to manage user stories, development tasks and progress throughout the project.
 
 [Back to top](#pridemediadb)
 
@@ -178,6 +182,13 @@ The user stories are managed through the project's GitHub Issues and Project Boa
 ---
 
 ### MoSCoW Prioritisation
+
+The project uses the MoSCoW method to prioritise requirements:
+
+- **Must Have**
+- **Should Have**
+- **Could Have**
+- **Won't Have**
 
 [Back to top](#pridemediadb)
 
