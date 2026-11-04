@@ -79,6 +79,8 @@ These ideas have been considered but are deliberately outside the current assess
 
 ## Epics
 
+The project is organised into 15 epics _('epics' are there to group related areas of work into larger themes. They are a way of organising the project backlog, rather than individual tasks or user stories.)_ , each representing a major area of functionality or development within PrideMediaDB. These provide a high-level structure for grouping related user stories and development tasks.
+
 1. Project Planning & UX
 2. Database & Data Model
 3. UX & Responsive Interface
@@ -97,10 +99,14 @@ These ideas have been considered but are deliberately outside the current assess
 
 ## Planning and Agile approach
 
-Wireframes, ERD work, API research and technical design are planning tasks/supporting evidence under the relevant stories rather than artificial standalone user stories.
+Planning and design activities support the development of the relevant epics and user stories. This includes creating wireframes, designing the database using ERDs, researching APIs and making technical decisions.
 
-Existing design work, including the home page and individual film page wireframes, will be incorporated into the project documentation and implementation rather than recreated unnecessarily.
+These activities are documented as part of the project planning and supporting evidence rather than being created as separate user stories where they do not represent a specific user requirement.
 
-New ideas should normally be added to Should, Could or Won't rather than expanding Must without reassessing the overall effort balance.
+Existing design work, including the homepage and individual film page wireframes, will be used to inform implementation and project documentation rather than recreated unnecessarily.
+
+As development progresses, requirements and priorities may be reviewed and refined. New features will normally be considered for the Should Have, Could Have or Won't Have categories before being added to the Must Have scope, helping to maintain a realistic development plan.
+
+GitHub Issues are used to record individual user stories, their acceptance criteria and associated development tasks. The GitHub Project Board provides an overview of progress, while descriptive commits record changes made during development.
 
 The GitHub issue history records user stories, acceptance criteria and tasks. Issues will be updated as development progresses, with small, descriptive commits for individual features and fixes.
