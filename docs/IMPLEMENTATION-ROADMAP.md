@@ -41,22 +41,23 @@ This is a requirements-based mapping, not a claim that the final model design ha
 | Accounts | Django built-in User/authentication | Login, registration, dashboard and ownership |
 | User rating | Rating linked to User and Film | Film detail, My Ratings |
 | Written review | Review linked to User and Film, separate from Rating | Film detail, My Reviews |
-| Watchlist membership | Watchlist or explicit user-film through model, as justified by ERD | Watchlist |
-| Watched status/date | Watched or suitable explicit relationship model | Watched films, dashboard |
+| Bookmark and watched flags | One user-film tracking model with independent bookmarked and watched flags, optionally with timestamps | Member dashboard and film detail |
+| Collection / series grouping | One reusable grouping model linked many-to-many to films/media; optional grouping type and optional item order | Themed collections and sequential series |
 | User film suggestions | FilmSuggestion linked to submitting user, with moderation status | Suggest a Film, Django admin |
 | LGBTQ+ categories | Reusable category model | Browse/discover, film detail |
 | Film/category relationship | FilmRepresentation intermediary if relationship attributes/constraints require it; otherwise many-to-many | Film detail and representation discovery |
 | Genres and themes | Reusable lookup models and relationships where required | Browse/search, film detail |
 | Age rating | Lookup or field/model arrangement justified by ERD and requirements | Film detail and any in-scope filters |
 | Language, country and subtitle metadata | Add only where supported by prioritised requirements and reviewed schema | Film detail and relevant filters |
-| Collections and short-film groupings/series | Implement only to the extent required by Must-have catalogue requirements; richer ordering is Could-have | Discovery and film detail |
+| Collections and short-film groupings/series | Prefer one reusable grouping model; films may belong to multiple groupings. Keep richer ordering as Could-have | Discovery and film detail |
 | External identifiers and ratings | Fields or related model only as required for planned API stories | Film detail and API enrichment |
 
 Design rules:
 - Ratings and written reviews are separate. A user can rate without writing a review.
 - User-owned records belong to the authenticated user. Users must not edit or delete another user's records.
 - Film suggestions remain pending until explicitly approved by an administrator; submission must not automatically add a public catalogue film.
-- Watchlist and watched status are distinct. A watched film does not require a rating or review.
+- Bookmarked and watched are independent user flags. A user can set either, both or neither. A watched film does not require a rating or review.
+- Films may belong to multiple collections/groupings. Prefer one grouping model for themed collections and sequential series unless acceptance criteria prove they need separate structures.
 - Add database constraints, such as one rating per user per film, where confirmed by requirements.
 - Django can create automatic many-to-many intermediary tables. Use explicit through models only where extra relationship data or constraints justify them.
 - Do not implement deferred entities/features merely because they appeared in an early ERD draft.
@@ -186,7 +187,7 @@ For every feature:
 ### Phase 4 — Accounts and member features
 - Implement registration, login and logout.
 - Implement dashboard.
-- Implement watchlist and watched status, including watched films without a rating/review.
+- Implement independent bookmarked and watched flags, including watched films without a rating/review.
 - Implement ratings and reviews as separate but connected features.
 - Test authentication, ownership, duplicate submissions, edit/delete permissions and validation.
 
@@ -231,7 +232,7 @@ Do not implement Won't-have items in the current assessed release.
 | Film details | Correct film and related data; unknown film returns 404 |
 | Representation | Correct categories and relationships displayed |
 | Authentication | Registration validation, login/logout and protected pages |
-| Watchlist/watched | Add/remove, ownership, duplicates, watched status/date, independent of rating |
+| Bookmark/watched | Independent toggles, ownership, one user-film tracking record, optional timestamps, independent of rating/review |
 | Ratings/reviews | Rating without review, optional review, edit/delete own item, cannot alter another's |
 | Suggestions | Authenticated submission, pending default, validation, staff approval/rejection |
 | Admin | Staff-only access and correct moderation/catalogue operations |
