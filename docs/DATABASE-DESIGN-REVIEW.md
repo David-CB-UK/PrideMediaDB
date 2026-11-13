@@ -40,20 +40,23 @@ No Django project, app, `models.py`, `manage.py` or Django settings file was fou
 | Similar-film suggestions | `SIMILARFILMSUGGESTION` and a related field on Film | Personalised recommendations are Won't-have for this release. Exclude from the initial implementation unless this table serves a separately approved, essential purpose. |
 | Plex source IDs | `FILM_PLEX_SOURCE_ID` | Plex integration is Won't-have. Exclude from the current release. |
 
-## 3. Important design decisions still required
+## 3. Decisions confirmed so far
 
-These are questions to settle before writing Django models:
+These reflect the user's answers during the Phase 0 review. They are design decisions in progress, not yet a complete approved schema.
 
-1. **Film and Media:** Is Media intended to be a parent record for films, shorts and other media types, or does it duplicate Film?
-2. **Representation:** What is the intended cardinality? A film can normally have several representation categories, and a category can apply to many films. If so, use a many-to-many relationship with a proper two-key junction.
-3. **Age ratings:** Is one age rating stored per film, or can ratings vary by country/classification system?
-4. **Collections and series:** What is the functional difference? Can one film belong to multiple collections or series?
-5. **Watchlist and watched:** Can a user retain a film on their watchlist after marking it watched, or should marking watched remove it?
-6. **Ratings and reviews:** Can a user submit a rating without a review? The backlog says yes; the database must support that.
-7. **Authentication:** Use Django authentication rather than implementing password storage and login in a custom User table.
-8. **Film suggestions:** Confirm the status workflow and how an approved suggestion becomes a catalogue Film without losing its submission history.
+1. **Film and Media:** Keep both concepts for the current design. The longer-term intention is for Media to support other media types, potentially including television and books, while Film holds film-specific information. The precise parent/child or one-to-one relationship still needs to be defined so the two records do not duplicate fields.
+2. **LGBTQ+ representation:** Treat the relationship between Film and representation categories as many-to-many. The final implementation should use a valid relationship with both foreign keys and should not store a single film foreign key on the reusable category record.
+3. **Age ratings:** Keep the current release simple; do not implement multiple country-specific/classification-system ratings now. Record this as a future extension, not a Must-have implementation requirement.
+4. **Series and collections:** A Series represents related instalments or entries (for example, *Where Are the Bears? 1, 2, etc.*). A Collection is a curated group of films, potentially grouped by theme or another editorial criterion. The model should allow films to be grouped without treating every collection as a sequential series.
+5. **Watchlist and watched:** User's preference has been recorded, but the exact behaviour needs one clarification before it is treated as final: should a watched film remain on the user's watchlist, or should it be removed automatically?
 
-## 4. Scope protection
+## 4. Remaining design decisions
+
+6. **Ratings and reviews:** The backlog requires a rating to be possible without a written review. Keep Rating and Review separate unless later acceptance criteria say otherwise.
+7. **Authentication:** Use Django's built-in authentication rather than implementing password storage and login in a custom User table.
+8. **Film suggestions:** Use a pending-by-default suggestion workflow with explicit staff approval/rejection. Confirm the exact approval process and how the resulting catalogue Film retains a link to the original suggestion.
+
+## 5. Scope protection
 
 The first implementation should focus on the Must-have requirements in `docs/PROJECT-BACKLOG.md`.
 
@@ -62,7 +65,7 @@ The first implementation should focus on the Must-have requirements in `docs/PRO
 - **Defer to Could:** content warnings, Common Sense Media, awards/festivals, extra API and richer collection/series ordering.
 - **Exclude from this release:** Plex integration, personalised recommendations, streaming aggregation, separate favourites, social/sharing and notifications/messaging.
 
-## 5. Repository and implementation status
+## 6. Repository and implementation status
 
 | Item | Status |
 |---|---|
@@ -75,11 +78,11 @@ The first implementation should focus on the Must-have requirements in `docs/PRO
 | Django models written | Not started |
 | Migrations created/applied | Not started |
 
-## 6. Next Phase 0 actions
+## 7. Next Phase 0 actions
 
 1. Complete visual inspection of the conceptual ERD and compare it to the relational schema.
 2. Resolve the eight design questions above, using the Must-have acceptance criteria as the deciding authority.
-3. Produce the approved model-and-relationship table, including cardinality, uniqueness, nullability and deletion behaviour.
+3. Clarify watchlist behaviour and the suggestion approval workflow, then produce the approved model-and-relationship table, including cardinality, uniqueness, nullability and deletion behaviour.
 4. Confirm whether the Django project is to be created in this repository or already exists elsewhere.
 5. Only then begin the Django foundation and model tests. Do not create or apply migrations before the design is reviewed.
 
