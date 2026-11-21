@@ -1,2 +1,21 @@
-# macOS Finder metadata files created in folders; keep them out of Git.
+
+# macOS
 .DS_Store
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Django generated files
+*.sqlite3
+staticfiles/
+media/
