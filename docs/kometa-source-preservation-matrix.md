@@ -106,6 +106,22 @@ Known examples include:
 
 Individual television episodes are eligible catalogue works where they meet the project's LGBTQ+ relevance criteria. The eventual data model must distinguish episodes from films and series and should link episodes to their parent series where that relationship is known.
 
+#### Short-film classification and runtime
+
+Do not treat the word `Short` as one interchangeable piece of data. Preserve these as separate signals:
+
+1. The user's `[Short]` annotation: a source/editorial format classification.
+2. IMDb `titleType` (for example, `short` or `tvShort`): IMDb's work-type classification.
+3. IMDb `genres` containing `Short`: IMDb's genre/classification value.
+4. A literal word such as "Short" in a title: part of the title text only.
+5. Runtime: a numeric duration in minutes, stored independently of all the above.
+
+IMDb's title basics dataset documents `titleType`, `runtimeMinutes` and `genres` as separate fields. IMDb's API documentation also exposes runtime (in seconds). IMDb's own Short genre guidance uses duration thresholds that vary by type: theatrical/made-for-video titles are 44 minutes or less, while TV series or TV movies are 21 minutes or less. These are not the same as the Kometa smart-filter thresholds in this source.
+
+PrideMediaDB should retain the user's `[Short]` annotation and any IMDb classification independently, and store runtime when available. A missing runtime must remain unknown, not be treated as zero or as proof that a work is not short.
+
+The current design preference is to display runtime on the film record when it is available, rather than automatically generating the two Micro/Short collections from duration thresholds. The source's existing smart-filter definitions remain documented for provenance, but their recreation as PrideMediaDB collections is not part of the initial import unless separately agreed.
+
 ### 4.4 Languages and subtitles
 
 The user has confirmed that standalone language annotations (for example `[Swedish]`, `[Thai]` or `[French]`) refer to the original language.
@@ -157,6 +173,18 @@ Unknown annotations must not cause a valid source import to fail merely because 
 
 ## 5. Collection-level configuration
 
+### Runtime and external metadata
+
+Runtime is useful film metadata but is not required for a valid import.
+
+- IMDb's `title.basics` data includes `titleType`, `runtimeMinutes` and `genres` as separate fields. Its title data API exposes runtime in seconds.
+- TMDb movie details provide runtime in minutes. Its television data distinguishes typical series episode runtimes from individual episode runtimes.
+- Prefer a verified API value where available, but retain YAML runtime annotations as separate source observations.
+- Where sources disagree, retain both values with provenance and flag the discrepancy. Do not overwrite the source annotation.
+- Missing runtime remains unknown. Do not infer a zero-minute runtime or use missing runtime to exclude a title.
+
+The IMDb Short genre's thresholds differ by work type and should not be confused with the Kometa Micro/Short rules. The `[Short]` source annotation, IMDb `titleType`, IMDb `Short` genre, and runtime are separate signals.
+
 | YAML field | Decision | PrideMediaDB treatment |
 |---|---|---|
 | Collection key/name | Preserve | Collection name |
@@ -190,16 +218,18 @@ The default display order for films within collections is release date/year, not
 
 The collection's own display order is an application concern and should not depend on `sort_title`.
 
-## 6. Short-film smart collections — decision pending
+## 6. Short-film collections and runtime
 
-The source defines two dynamic short-film collection rules:
+The source defines two dynamic Kometa smart-filter collections:
 
 - Micro: LGBTQ+ labelled works with runtime under 10 minutes.
 - Short: LGBTQ+ labelled works with runtime from 10 minutes up to, but not including, 50 minutes.
 
-The user has not yet confirmed whether PrideMediaDB should automatically assign eligible works to these collections based on its own representation and runtime data, or whether membership should remain manually curated. Do not implement either behaviour until clarified.
+These rules are part of the historical source configuration and must be preserved in the source documentation. They are not automatically adopted as PrideMediaDB collection rules.
 
-Plex labels must not be treated as the source of truth for PrideMediaDB's eligibility rules.
+The current design preference is to store and display a film's runtime when a reliable value is available, while keeping the user's `[Short]` annotation and IMDb's independent work-type/genre classifications as separate information. Do not automatically generate Micro or Short collection membership from runtime thresholds in the initial implementation.
+
+Plex labels must not be treated as the source of truth for PrideMediaDB's eligibility rules. If curated Micro/Short collections are wanted later, their membership rules should be explicitly defined using PrideMediaDB data.
 
 ## 7. Film identity, editions and episodes
 
