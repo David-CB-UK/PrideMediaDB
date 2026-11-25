@@ -192,7 +192,7 @@ The current planning baseline allocates development effort as follows:
 - **Could Have (20%)** – Desirable features to implement if time allows.
 - **Won't Have** – Features excluded from the current assessed project scope and reserved for potential future development.
 
-For the complete prioritised requirements and user stories, see the [Project Backlog](docs/PROJECT-BACKLOG.md).
+For the complete prioritised requirements and user stories, see the [Project Backlog](docs/project-backlog.md).
 
 [Back to top](#pridemediadb)
 
@@ -750,7 +750,7 @@ The following technologies, frameworks, APIs and development tools were used dur
 
 Details of the project's testing strategy, including automated testing and TDD, are documented in the separate Testing document.
 
-[View Testing Documentation](docs/TESTING.md)
+[View Testing Documentation](docs/testing.md)
 
 [Back to top](#pridemediadb)
 
