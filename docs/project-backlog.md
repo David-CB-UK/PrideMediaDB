@@ -36,11 +36,28 @@ This gives the project a clear 60/20/20 effort allocation while protecting core 
 - Poster/artwork handling
 - Spoken languages and English-subtitle availability
 - Collections and series
+- Curated collection browsing, including collection descriptions and film membership
 - External identifiers needed for future/API enrichment
 - Administrator data management and direct data entry
 - User film suggestions with administrator approval/rejection
 - Watchlist and watched status, including watched films without a rating/review
 - Ratings and reviews, presented together in the user's My Reviews & Ratings area
+
+### Curated collection browsing — included in Browse and search films (Must Have)
+
+**User story**
+
+As a visitor, I want to browse curated collections of LGBTQ+ films so that I can discover films grouped by shared themes, subjects, formats or other areas of interest.
+
+**Core acceptance criteria**
+
+- Visitors can discover and browse the available curated collections.
+- Each collection has a collection page or view showing its name and available description.
+- Each collection view displays the films belonging to that collection.
+- A film can appear in more than one collection without creating duplicate film records.
+- Visitors can open a film from a collection to view its film details.
+
+Advanced collection filtering, richer ordering and additional curation tools remain separate enhancements and are not implied by this Must Have requirement.
 
 ## Should — 6 points
 
