@@ -10,6 +10,8 @@ The source is:
 
 The original source must remain unchanged by the importer.
 
+The detailed source-field, annotation and re-import rules are maintained in the [Kometa YAML Source Preservation Specification](kometa-source-preservation-matrix.md). That specification is the working reference for what PrideMediaDB must preserve, interpret, defer or exclude.
+
 ## 2. AI assistance, accessibility and learning
 
 This work was undertaken with **_substantial assistance from AI tools_**. AI guidance was an important part of making this technical investigation achievable, providing support with tasks that would otherwise have presented significant barriers to independent completion.
