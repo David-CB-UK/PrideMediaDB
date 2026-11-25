@@ -98,6 +98,7 @@ The project is designed to provide an accessible, responsive and engaging experi
 PrideMediaDB is designed around the following user goals:
 
 - **Discover films** — Browse, search and filter the database to find LGBTQ+ films that match their interests.
+- **Browse curated collections** — Explore curated groups of LGBTQ+ films organised around shared themes, subjects, formats or other areas of interest.
 - **Explore films and representation** — View detailed film information and explore LGBTQ+ representation, themes, categories, age ratings and other relevant information.
 - **Explore additional film information** — Access relevant metadata and links to trusted external film information and ratings, including information provided through integrated external services.
 - **Keep track of films** — Add films to a personal Watchlist and mark films as watched.
@@ -119,6 +120,7 @@ The user goals identified for PrideMediaDB are translated into user stories that
 | User Goal | User Stories |
 |---|---|
 | **Discover films** | As a visitor, I want to browse and search the film database so that I can discover LGBTQ+ films that interest me. |
+| **Browse curated collections** | As a visitor, I want to browse curated collections of LGBTQ+ films so that I can discover films grouped by shared themes, subjects, formats or other areas of interest. |
 | **Explore films and representation** | As a visitor, I want to view detailed film information and LGBTQ+ representation so that I can understand what a film is about and how LGBTQ+ representation is presented. |
 | **Explore additional film information** | As a visitor, I want to access relevant film metadata, external information and ratings so that I can explore information from additional trusted sources. |
 | **Keep track of films** | As a registered user, I want to add films to my Watchlist and mark films as watched so that I can keep track of films I want to see and have already watched. |
